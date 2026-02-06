@@ -1,0 +1,1054 @@
+- id: acolyte_modern
+  name: acolyte modern
+  metadata:
+    hd: 'd8 | Skill_Points: 4'
+    bab_prog: MEDIUM
+    logic:
+      level_1:
+        - id: divine_grace
+          type: PASSIVE
+          script: '[SAVE:ALL_CHA_MOD]'
+      class_skills:
+        - concentration
+        - craft
+        - diplomacy
+        - heal
+        - knowledge_religion
+        - listen
+        - profession
+        - read_magic
+        - sense_motive
+        - spellcraft
+        - spot
+        - treat_injury
+- id: arcane_trickster
+  name: arcane trickster
+  metadata: {}
+- id: archivist
+  name: archivist
+  metadata:
+    hd: 'd6 | Skill_Points: 4'
+    bab_prog: SLOW
+    logic:
+      level_1:
+        - id: dark_knowledge
+          type: ACTIVE
+          script: act_dark_knowledge
+        - id: scribe_scroll
+          type: PASSIVE
+          script: '[UNLOCK:item_creation]'
+      class_skills:
+        - concentration
+        - craft
+        - decipher_script
+        - diplomacy
+        - gather_information
+        - heal
+        - knowledge
+        - profession
+        - search
+        - spellcraft
+- id: archmage
+  name: archmage
+  metadata: {}
+- id: ardent
+  name: ardent
+  metadata:
+    hd: 'd8 | Skill_Points: 2'
+    bab_prog: MEDIUM
+    logic:
+      level_1:
+        - id: mantle_access
+          type: PASSIVE
+          script: '[UNLOCK:psionic_mantle]'
+      class_skills:
+        - autohypnosis
+        - concentration
+        - craft
+        - diplomacy
+        - heal
+        - knowledge_psionics
+        - knowledge_religion
+        - profession
+- id: aristocrat
+  name: aristocrat
+  metadata:
+    hd: 'd8 | Skill_Points: 4'
+    bab_prog: MEDIUM
+- id: artificer
+  name: artificer
+  metadata:
+    hd: 'd6 | Skill_Points: 4'
+    bab_prog: MEDIUM
+    logic:
+      level_1:
+        - id: item_creation_infusion
+          type: PASSIVE
+          script: '[UNLOCK:infuse_item]'
+        - id: trapfinding
+          type: PASSIVE
+          script: '[UNLOCK:skill_search_traps]'
+      class_skills:
+        - appraise
+        - concentration
+        - craft
+        - disable_device
+        - knowledge
+        - open_lock
+        - profession
+        - search
+        - spellcraft
+        - use_magic_device
+- id: assassin
+  name: assassin
+  metadata: {}
+- id: astral_dancer
+  name: astral dancer
+  metadata: {}
+- id: barbarian
+  name: barbarian
+  metadata:
+    hd: 'd12 | Skill_Points: 4'
+    bab_prog: FAST
+    logic:
+      level_1:
+        - id: rage
+          type: ACTIVE
+          script: '[STAT:STR_4][STAT:CON_4][SAVE:WILL_2][AC:-2][DUR:3_CON]'
+        - id: fast_movement
+          type: PASSIVE
+          script: '[STAT:SPEED_10]'
+- id: barbarian_planar_sub
+  name: barbarian planar sub
+  metadata:
+    logic:
+      level_4:
+        - id: portal_sense
+          type: PASSIVE
+          script: '[UNLOCK:detect_portals]'
+      level_8:
+        - id: planar_fury
+          type: PASSIVE
+          script: '[WEAPON_ALIGN:character_alignment]'
+      level_12:
+        - id: planar_dr
+          type: PASSIVE
+          script: '[STAT:DR_1_ALIGNED]'
+- id: bard
+  name: bard
+  metadata:
+    hd: 'd6 | Skill_Points: 6'
+    bab_prog: MEDIUM
+    logic:
+      level_1:
+        - id: bardic_music
+          type: ACTIVE
+          script: act_bardic_music
+        - id: bardic_knowledge
+          type: PASSIVE
+          script: '[SAVE:KNOWLEDGE_LEVEL_INT]'
+- id: beguiler
+  name: beguiler
+  metadata:
+    hd: 'd6 | Skill_Points: 6'
+    bab_prog: SLOW
+    logic:
+      level_1:
+        - id: armored_mage
+          type: PASSIVE
+          script: '[NEGATE:asf_light]'
+        - id: trapfinding
+          type: PASSIVE
+          script: '[UNLOCK:skill_search_traps]'
+      class_skills:
+        - appraise
+        - balance
+        - bluff
+        - climb
+        - concentration
+        - decipher_script
+        - diplomacy
+        - disguise
+        - escape_artist
+        - forgery
+        - gather_information
+        - hide
+        - jump
+        - knowledge
+        - listen
+        - move_silently
+        - open_lock
+        - profession
+        - search
+        - sense_motive
+        - sleight_of_hand
+        - speak_language
+        - spellcraft
+        - swim
+        - tumble
+        - use_magic_device
+- id: binder
+  name: binder
+  metadata:
+    hd: 'd8 | Skill_Points: 2'
+    bab_prog: MEDIUM
+    logic:
+      level_1:
+        - id: soul_binding_1
+          type: ACTIVE
+          script: act_bind_vestige
+      class_skills:
+        - bluff
+        - concentration
+        - craft
+        - decipher_script
+        - diplomacy
+        - gather_information
+        - intimidate
+        - knowledge
+        - profession
+        - sense_motive
+- id: blackguard
+  name: blackguard
+  metadata: {}
+- id: bokor
+  name: bokor
+  metadata: {}
+- id: chameleon
+  name: chameleon
+  metadata: {}
+- id: chaos_monk
+  name: chaos monk
+  metadata:
+    hd: 'd8 | Skill_Points: 4'
+    bab_prog: MEDIUM
+    logic:
+      level_1:
+        - id: flail_of_strikes
+          type: ACTIVE
+          script: '[EXTRA_ATTACK:1][ATK:-2]'
+        - id: unarmed_strike
+          type: PASSIVE
+          script: '[DMG_DIE:1d6]'
+      class_skills:
+        - balance
+        - climb
+        - concentration
+        - craft
+        - escape_artist
+        - hide
+        - jump
+        - knowledge
+        - listen
+        - move_silently
+        - perform
+        - profession
+        - sense_motive
+        - spot
+        - swim
+        - tumble
+- id: cipher_adept
+  name: cipher adept
+  metadata: {}
+- id: cleric
+  name: cleric
+  metadata:
+    hd: 'd8 | Skill_Points: 2'
+    bab_prog: MEDIUM
+    logic:
+      level_1:
+        - id: turn_undead
+          type: ACTIVE
+          script: act_turn_undead
+        - id: domain_access
+          type: PASSIVE
+          script: '[UNLOCK:divine_domain]'
+- id: crusader
+  name: crusader
+  metadata:
+    hd: 'd10 | Skill_Points: 2'
+    bab_prog: FAST
+    logic:
+      level_1:
+        - id: steely_resolve
+          type: PASSIVE
+          script: '[BUFFER:delayed_dmg_5]'
+        - id: furious_counterstrike
+          type: PASSIVE
+          script: '[STAT:HIT_DMG_1][IF:buffer_active]'
+      class_skills:
+        - balance
+        - concentration
+        - craft
+        - diplomacy
+        - intimidate
+        - jump
+        - knowledge_religion
+        - martial_lore
+        - ride
+- id: cultist_hunter
+  name: cultist hunter
+  metadata:
+    hd: 'd8 | Skill_Points: 4'
+    bab_prog: FAST
+    logic:
+      level_1:
+        - id: favored_enemy_cults
+          type: PASSIVE
+          script: '[STAT:HIT_2][STAT:DMG_2][IF:target_tag_cultist]'
+        - id: sanity_shield
+          type: PASSIVE
+          script: '[DR_SANITY:2]'
+      class_skills:
+        - gather_information
+        - hide
+        - knowledge_cthulhu
+        - knowledge_local
+        - listen
+        - move_silently
+        - search
+        - spot
+        - survival
+- id: cyber_soldier
+  name: cyber soldier
+  metadata:
+    hd: 'd10 | Skill_Points: 2'
+    bab_prog: FAST
+    logic:
+      level_1:
+        - id: chrome_compatibility
+          type: PASSIVE
+          script: '[LIMIT:system_strain_bonus_2]'
+        - id: bonus_feat
+          type: PASSIVE
+          script: '[UNLOCK:combat_feat]'
+      class_skills:
+        - climb
+        - computer_use
+        - drive
+        - intimidate
+        - jump
+        - knowledge_technology
+        - repair
+        - swim
+- id: dervish
+  name: dervish
+  metadata: {}
+- id: divine_mind
+  name: divine mind
+  metadata:
+    hd: 'd10 | Skill_Points: 2'
+    bab_prog: MEDIUM
+    logic:
+      level_1:
+        - id: psychic_aura
+          type: PASSIVE
+      class_skills:
+        - autohypnosis
+        - climb
+        - concentration
+        - craft
+        - jump
+        - knowledge_psionics
+        - knowledge_religion
+        - profession
+        - swim
+- id: dominator
+  name: dominator
+  metadata: {}
+- id: dragon_disciple
+  name: dragon disciple
+  metadata: {}
+- id: dragon_shaman
+  name: dragon shaman
+  metadata:
+    hd: 'd10 | Skill_Points: 2'
+    bab_prog: MEDIUM
+    logic:
+      level_1:
+        - id: draconic_aura
+          type: PASSIVE
+        - id: totem_dragon
+          type: PASSIVE
+      class_skills:
+        - climb
+        - craft
+        - hide
+        - intimidate
+        - knowledge_nature
+        - listen
+        - search
+        - spot
+        - swim
+- id: dragonfire_adept
+  name: dragonfire adept
+  metadata:
+    hd: 'd8 | Skill_Points: 2'
+    bab_prog: SLOW
+    logic:
+      level_1:
+        - id: breath_weapon
+          type: ACTIVE
+          script: act_breath_weapon
+        - id: dragontouched
+          type: PASSIVE
+      class_skills:
+        - appraise
+        - bluff
+        - climb
+        - concentration
+        - craft
+        - decipher_script
+        - intimidate
+        - jump
+        - knowledge
+        - listen
+        - search
+        - speak_language
+        - spot
+        - use_magic_device
+- id: dread_necromancer
+  name: dread necromancer
+  metadata:
+    hd: 'd6 | Skill_Points: 2'
+    bab_prog: SLOW
+    logic:
+      level_1:
+        - id: charnel_touch
+          type: ACTIVE
+          script: act_charnel_touch
+        - id: rebuke_undead
+          type: ACTIVE
+          script: act_turn_undead
+      class_skills:
+        - bluff
+        - concentration
+        - craft
+        - decipher_script
+        - disguise
+        - intimidate
+        - knowledge_arcana
+        - knowledge_religion
+        - profession
+        - spellcraft
+- id: druid
+  name: druid
+  metadata:
+    hd: 'd8 | Skill_Points: 4'
+    bab_prog: MEDIUM
+    logic:
+      level_1:
+        - id: animal_companion
+          type: PASSIVE
+        - id: nature_sense
+          type: PASSIVE
+- id: duelist
+  name: duelist
+  metadata: {}
+- id: duskblade
+  name: duskblade
+  metadata:
+    hd: 'd8 | Skill_Points: 2'
+    bab_prog: FAST
+    logic:
+      level_1:
+        - id: arcane_attunement
+          type: ACTIVE
+        - id: armored_mage
+          type: PASSIVE
+      class_skills:
+        - climb
+        - concentration
+        - craft
+        - decipher_script
+        - jump
+        - knowledge_arcana
+        - knowledge_history
+        - ride
+        - sense_motive
+        - spellcraft
+        - swim
+- id: epic_cleric
+  name: epic cleric
+  metadata: {}
+- id: epic_fighter
+  name: epic fighter
+  metadata: {}
+- id: epic_rogue
+  name: epic rogue
+  metadata: {}
+- id: epic_wizard
+  name: epic wizard
+  metadata: {}
+- id: factotum
+  name: factotum
+  metadata:
+    hd: 'd8 | Skill_Points: 6'
+    bab_prog: MEDIUM
+    logic:
+      level_1:
+        - id: inspiration_pool
+          type: PASSIVE
+        - id: cunning_insight
+          type: ACTIVE
+          script: act_factotum_insight
+      class_skills:
+        - all
+- id: favored_soul
+  name: favored soul
+  metadata:
+    hd: 'd8 | Skill_Points: 2'
+    bab_prog: MEDIUM
+- id: fighter
+  name: fighter
+  metadata:
+    hd: 'd10 | Skill_Points: 2'
+    bab_prog: FAST
+    logic:
+      level_1:
+        - id: bonus_feat
+          type: PASSIVE
+- id: fighter_planar_sub
+  name: fighter planar sub
+  metadata:
+    logic:
+      level_4:
+        - id: planar_study
+          type: PASSIVE
+          script: '[STAT:HIT_2][STAT:DMG_2][IF:target_type_outsider]'
+      level_8:
+        - id: aligned_strike
+          type: ACTIVE
+          script: act_align_weapon
+- id: frenzied_berserker
+  name: frenzied berserker
+  metadata: {}
+- id: gadgeteer
+  name: gadgeteer
+  metadata:
+    hd: 'd6 | Skill_Points: 8'
+    bab_prog: SLOW
+    logic:
+      level_1:
+        - id: jury_rig
+          type: ACTIVE
+          script: '[REPAIR:1d6][IF:item_broken]'
+        - id: custom_gadget
+          type: PASSIVE
+          script: '[UNLOCK:gadget_creation]'
+      class_skills:
+        - computer_use
+        - craft
+        - disable_device
+        - knowledge_technology
+        - open_lock
+        - repair
+        - research
+        - search
+- id: gatecrasher
+  name: gatecrasher
+  metadata: {}
+- id: gunslinger
+  name: gunslinger
+  metadata:
+    hd: 'd10 | Skill_Points: 4'
+    bab_prog: FAST
+    logic:
+      level_1:
+        - id: firearm_mastery
+          type: PASSIVE
+          script: '[NEGATE:firearm_mishap][NEGATE:range_penalty_1]'
+        - id: deadeye_pulse
+          type: ACTIVE
+          script: '[HIT:INT_MOD][IF:firearm_used]'
+      class_skills:
+        - ride
+        - intimidate
+        - spot
+        - listen
+        - profession_gunsmith
+        - survival
+- id: hellbreaker
+  name: hellbreaker
+  metadata: {}
+- id: hellfire_warlock
+  name: hellfire warlock
+  metadata: {}
+- id: imagist
+  name: imagist
+  metadata:
+    hd: 'd4 | Skill_Points: 4'
+    bab_prog: SLOW
+    logic:
+      level_1:
+        - id: appearance_modifier
+          type: PASSIVE
+          script: '[UNLOCK:APP_FOR_SKILLS]'
+        - id: sanctuary_aura
+          type: ACTIVE
+          script: act_cast_sanctuary
+      level_3:
+        - id: cohort_beauty
+          type: PASSIVE
+          script: '[UNLOCK:LEADERSHIP_APP]'
+      level_5:
+        - id: inspired_smite_evil
+          type: ACTIVE
+          script: act_imagist_smite
+      class_skills:
+        - bluff
+        - concentration
+        - craft
+        - diplomacy
+        - heal
+        - listen
+        - perform
+        - profession
+        - sense_motive
+        - spellcraft
+        - spot
+- id: ioun_master
+  name: ioun master
+  metadata: {}
+- id: kundala
+  name: kundala
+  metadata:
+    hd: 'd8 | Skill_Points: 4'
+    bab_prog: MEDIUM
+    logic:
+      level_1:
+        - id: flurry_of_blows
+          type: ACTIVE
+          script: '[EXTRA_ATTACK:1][ATK:-2]'
+        - id: unarmed_strike
+          type: PASSIVE
+          script: '[DMG_DIE:1d6]'
+      level_2:
+        - id: blessings_of_the_wise
+          type: PASSIVE
+          script: '[SAVE:ALL_WIS_MOD]'
+      level_8:
+        - id: body_manipulation
+          type: ACTIVE
+          script: act_boost_physical_stats
+      class_skills:
+        - balance
+        - climb
+        - concentration
+        - craft
+        - diplomacy
+        - heal
+        - hide
+        - jump
+        - listen
+        - perform
+        - profession
+        - sense_motive
+        - spot
+        - swim
+- id: loremaster
+  name: loremaster
+  metadata: {}
+- id: mage_modern
+  name: mage modern
+  metadata:
+    hd: 'd6 | Skill_Points: 4'
+    bab_prog: SLOW
+    logic:
+      level_1:
+        - id: arcane_training
+          type: PASSIVE
+          script: '[UNLOCK:arcane_modern]'
+      class_skills:
+        - concentration
+        - craft
+        - decipher_script
+        - knowledge_arcana
+        - knowledge_technology
+        - listen
+        - profession
+        - read_magic
+        - search
+        - spellcraft
+        - spot
+- id: marshal
+  name: marshal
+  metadata:
+    hd: 'd8 | Skill_Points: 4'
+    bab_prog: MEDIUM
+    logic:
+      level_1:
+        - id: minor_aura
+          type: PASSIVE
+          script: '[AURA:MORALE_1]'
+      class_skills:
+        - bluff
+        - diplomacy
+        - handle_animal
+        - intimidate
+        - knowledge_history
+        - knowledge_local
+        - knowledge_nobility
+        - listen
+        - perform
+        - profession
+        - ride
+        - search
+        - sense_motive
+        - speak_language
+        - spot
+        - swim
+- id: mastermind
+  name: mastermind
+  metadata:
+    hd: 'd6 | Skill_Points: 6'
+    bab_prog: SLOW
+    logic:
+      level_1:
+        - id: calculated_dominance
+          type: ACTIVE
+          script: '[SAVE:WILL_NEG][FAIL:STATUS_dominated_1]'
+        - id: minion_matrix
+          type: PASSIVE
+          script: '[UNLOCK:leadership_bonus]'
+      class_skills:
+        - bluff
+        - diplomacy
+        - intimidate
+        - knowledge_local
+        - sense_motive
+        - gather_information
+- id: metaphysical_spellshaper
+  name: metaphysical spellshaper
+  metadata: {}
+- id: monk
+  name: monk
+  metadata:
+    hd: 'd8 | Skill_Points: 4'
+    bab_prog: MEDIUM
+    logic:
+      level_1:
+        - id: unarmed_strike
+          type: PASSIVE
+          script: '[DMG_DIE:1d6]'
+        - id: flurry_of_blows
+          type: ACTIVE
+          script: '[EXTRA_ATTACK:1][ATK:-2]'
+- id: monk_planar_sub
+  name: monk planar sub
+  metadata:
+    logic:
+      level_5:
+        - id: planar_resilience
+          type: PASSIVE
+          script: '[RESIST:VARIABLE_10]'
+      level_10:
+        - id: ki_strike_planar
+          type: PASSIVE
+          script: '[WEAPON_ALIGN:AXIOMATIC_ENTROPIC]'
+      level_15:
+        - id: planar_step
+          type: ACTIVE
+          script: act_cast_dimension_door
+- id: netrunner
+  name: netrunner
+  metadata:
+    hd: 'd6 | Skill_Points: 8'
+    bab_prog: SLOW
+    logic:
+      level_1:
+        - id: ghost_in_the_machine
+          type: PASSIVE
+          script: '[SKILL_MOD:stealth_digital_4]'
+        - id: data_siphon
+          type: ACTIVE
+          script: '[UNLOCK:remote_access]'
+      class_skills:
+        - computer_use
+        - knowledge_technology
+        - decipher_script
+        - disable_device
+        - research
+        - search
+- id: ninja
+  name: ninja
+  metadata:
+    hd: 'd6 | Skill_Points: 6'
+    bab_prog: MEDIUM
+    logic:
+      level_1:
+        - id: sudden_strike
+          type: PASSIVE
+          script: '[DMG_PRECISION:1d6]'
+        - id: ki_power
+          type: ACTIVE
+          script: act_ki_manifest
+      class_skills:
+        - balance
+        - bluff
+        - climb
+        - concentration
+        - craft
+        - disable_device
+        - disguise
+        - escape_artist
+        - hide
+        - jump
+        - listen
+        - move_silently
+        - open_lock
+        - search
+        - sense_motive
+        - sleight_of_hand
+        - spot
+        - swim
+        - tumble
+- id: noble
+  name: noble
+  metadata:
+    hd: 'd8 | Skill_Points: 4'
+    bab_prog: MEDIUM
+    logic:
+      level_1:
+        - id: favor
+          type: ACTIVE
+          script: '[UNLOCK:favor_call]'
+        - id: inspire_confidence
+          type: ACTIVE
+          script: '[AURA:MORALE_2]'
+      class_skills:
+        - appraise
+        - bluff
+        - diplomacy
+        - disguise
+        - forgery
+        - gather_information
+        - handle_animal
+        - intimidate
+        - knowledge
+        - listen
+        - perform
+        - profession
+        - ride
+        - sense_motive
+        - speak_language
+        - spot
+        - swim
+- id: paladin_planar_sub
+  name: paladin planar sub
+  metadata:
+    logic:
+      level_4:
+        - id: smite_abyss
+          type: PASSIVE
+          script: '[DMG_MULT:2.0][IF:target_tag_demon]'
+      level_6:
+        - id: celestial_mount
+          type: PASSIVE
+          script: '[APPLY_TEMPLATE:celestial][TARGET:mount]'
+- id: pierced_mystic
+  name: pierced mystic
+  metadata: {}
+- id: planar_champion
+  name: planar champion
+  metadata: {}
+- id: private_eye
+  name: private eye
+  metadata:
+    hd: 'd8 | Skill_Points: 8'
+    bab_prog: MEDIUM
+    logic:
+      level_1:
+        - id: cynical_intuition
+          type: PASSIVE
+          script: '[SKILL_MOD:sense_motive_4]'
+        - id: street_tracking
+          type: ACTIVE
+          script: '[UNLOCK:urban_track]'
+      class_skills:
+        - search
+        - spot
+        - listen
+        - gather_information
+        - sense_motive
+        - bluff
+        - intimidate
+        - knowledge_local
+- id: professor_occult
+  name: professor occult
+  metadata:
+    hd: 'd6 | Skill_Points: 6'
+    bab_prog: SLOW
+    logic:
+      level_1:
+        - id: forbidden_knowledge
+          type: PASSIVE
+          script: '[SKILL_MOD:knowledge_cthulhu_4][SANITY_DR:1]'
+        - id: mental_fortress
+          type: PASSIVE
+          script: '[SAVE:WILL_2]'
+      class_skills:
+        - knowledge_arcana
+        - knowledge_history
+        - knowledge_cthulhu_mythos
+        - decipher_script
+        - research
+        - linguistics
+- id: psion
+  name: psion
+  metadata:
+    hd: 'd4 | Skill_Points: 2'
+    bab_prog: SLOW
+    logic:
+      level_1:
+        - id: psionic_discipline
+          type: PASSIVE
+          script: '[UNLOCK:psi_focus]'
+      class_skills:
+        - autohypnosis
+        - concentration
+        - craft
+        - knowledge
+        - profession
+- id: psychic_warrior
+  name: psychic warrior
+  metadata:
+    hd: 'd8 | Skill_Points: 2'
+    bab_prog: MEDIUM
+    logic:
+      level_1:
+        - id: bonus_feat
+          type: PASSIVE
+          script: '[UNLOCK:combat_feat]'
+      class_skills:
+        - autohypnosis
+        - climb
+        - concentration
+        - craft
+        - jump
+        - knowledge_psionics
+        - profession
+        - ride
+        - search
+        - swim
+- id: rake
+  name: rake
+  metadata: {}
+- id: ranger
+  name: ranger
+  metadata:
+    hd: 'd8 | Skill_Points: 6'
+    bab_prog: FAST
+    logic:
+      level_1:
+        - id: favored_enemy
+          type: PASSIVE
+          script: '[STAT:HIT_2][STAT:DMG_2][IF:target_tag_favored]'
+        - id: wild_empathy
+          type: ACTIVE
+          script: '[UNLOCK:beast_speech]'
+- id: ranger_planar_sub
+  name: ranger planar sub
+  metadata:
+    logic:
+      level_4:
+        - id: planar_companion
+          type: PASSIVE
+          script: '[APPLY_TEMPLATE:celestial_fiendish][TARGET:companion]'
+      level_8:
+        - id: planar_tracking
+          type: ACTIVE
+          script: '[UNLOCK:track_planar_ripples]'
+- id: rogue
+  name: rogue
+  metadata:
+    hd: 'd6 | Skill_Points: 8'
+    bab_prog: MEDIUM
+    logic:
+      level_1:
+        - id: sneak_attack
+          type: PASSIVE
+          script: '[DMG_PRECISION:1d6]'
+        - id: trapfinding
+          type: PASSIVE
+          script: '[UNLOCK:skill_search_traps]'
+- id: rogue_planar_sub
+  name: rogue planar sub
+  metadata:
+    logic:
+      level_6:
+        - id: breach_sense
+          type: PASSIVE
+          script: '[UNLOCK:detect_breach_auto]'
+      level_10:
+        - id: planar_slippery_mind
+          type: PASSIVE
+          script: '[REROLL:saves_vs_planar]'
+- id: sacred_prostitute
+  name: sacred prostitute
+  metadata: {}
+- id: samurai
+  name: samurai
+  metadata:
+    hd: 'd10 | Skill_Points: 2'
+    bab_prog: FAST
+    logic:
+      level_1:
+        - id: daisho_proficiency
+          type: PASSIVE
+          script: '[UNLOCK:daisho]'
+        - id: kiai_smite
+          type: ACTIVE
+          script: act_smite
+      class_skills:
+        - climb
+        - craft
+        - diplomacy
+        - intimidate
+        - jump
+        - profession
+        - ride
+        - swim
+- id: seeker_of_the_mist_isle
+  name: seeker of the mist isle
+  metadata: {}
+- id: shadowdancer
+  name: shadowdancer
+  metadata: {}
+- id: tantrist
+  name: tantrist
+  metadata:
+    hd: 'd4 | Skill_Points: 4'
+    bab_prog: SLOW
+    logic:
+      level_1:
+        - id: personal_rune
+          type: PASSIVE
+          script: '[UNLOCK:rune_spellbook]'
+        - id: domain_access
+          type: PASSIVE
+          script: '[UNLOCK:tantrist_domain]'
+      level_5:
+        - id: bonus_sexual_feat
+          type: PASSIVE
+          script: '[UNLOCK:sexual_feat]'
+      class_skills:
+        - concentration
+        - craft
+        - diplomacy
+        - heal
+        - listen
+        - perform
+        - profession
+        - sense_motive
+        - spellcraft
+        - spot
+- id: ur_priest
+  name: ur priest
+  metadata: {}
+- id: vocational
+  name: vocational
+  metadata: {}
+- id: war_hulk
+  name: war hulk
+  metadata: {}

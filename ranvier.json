@@ -17,8 +17,9 @@
     "vendor-npcs",
     "player-groups",
     "progressive-respawn",
-    "telnet-networking",
-    "websocket-networking"
+    "websocket-networking",
+    "zenith-bridge",
+    "zenith-world"
   ],
   "dataSources": {
     "YamlArea": {
