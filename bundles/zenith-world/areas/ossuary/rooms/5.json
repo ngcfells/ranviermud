@@ -1,0 +1,21 @@
+{
+  "id": "5",
+  "title": "The Vestibule of Cleansing",
+  "description": "Shallow stone basin of brackish water. Statues of priests in prayer.",
+  "exits": [
+    {
+      "direction": "north",
+      "roomId": "3"
+    },
+    {
+      "direction": "south",
+      "roomId": "36"
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK",
+      "WATER"
+    ]
+  }
+}

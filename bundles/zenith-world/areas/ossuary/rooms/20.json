@@ -1,0 +1,21 @@
+{
+  "id": "20",
+  "title": "The Resonance Chamber",
+  "description": "Five man-sized bronze tuning forks in a circle. Eastern wall is a solid bronze plate.",
+  "exits": [
+    {
+      "direction": "west",
+      "roomId": "19"
+    },
+    {
+      "direction": "east",
+      "roomId": "21"
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK",
+      "PUZZLE"
+    ]
+  }
+}

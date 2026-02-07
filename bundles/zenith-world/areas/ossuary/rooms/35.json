@@ -1,0 +1,20 @@
+{
+  "id": "35",
+  "title": "The Catacomb Exit Loop",
+  "description": "Passageway climbing gently toward a cleaner, warmer area.",
+  "exits": [
+    {
+      "direction": "west",
+      "roomId": "34"
+    },
+    {
+      "direction": "north",
+      "roomId": "36"
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "STABLE"
+    ]
+  }
+}

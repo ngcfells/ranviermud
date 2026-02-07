@@ -1,0 +1,21 @@
+{
+  "id": "33",
+  "title": "The Moldy Crypt",
+  "description": "Tight room of stacked stone crypts. Thick grey mold releases spores.",
+  "exits": [
+    {
+      "direction": "west",
+      "roomId": "32"
+    },
+    {
+      "direction": "east",
+      "roomId": "34"
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK",
+      "DIFFICULT"
+    ]
+  }
+}

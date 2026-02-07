@@ -1,0 +1,30 @@
+{
+  "id": "48",
+  "title": "The Vestibule of Thorns",
+  "description": "Overgrown with Abyssal briars pulsing with a rhythmic thrum.",
+  "exits": [
+    {
+      "direction": "north",
+      "roomId": "47"
+    },
+    {
+      "direction": "south",
+      "roomId": "49"
+    }
+  ],
+  "items": [
+    {
+      "id": {
+        "id": "skeleton_human",
+        "rate": 1
+      }
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK",
+      "DIFFICULT",
+      "NEGATIVE_ENERGY"
+    ]
+  }
+}

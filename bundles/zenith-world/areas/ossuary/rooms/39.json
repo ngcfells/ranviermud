@@ -1,0 +1,24 @@
+{
+  "id": "39",
+  "title": "The Tithe Collection Room",
+  "description": "OFFERING room with rusted lockboxes and broken wooden chests.",
+  "exits": [
+    {
+      "direction": "west",
+      "roomId": "38"
+    }
+  ],
+  "items": [
+    {
+      "id": {
+        "id": "shadow",
+        "rate": 0.5
+      }
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK"
+    ]
+  }
+}

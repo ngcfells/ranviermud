@@ -1,0 +1,24 @@
+{
+  "id": "37",
+  "title": "The Hall of Statues",
+  "description": "Processional of life-sized limestone knights. Sandalwood scent in heavy silence.",
+  "exits": [
+    {
+      "direction": "north",
+      "roomId": "36"
+    },
+    {
+      "direction": "south",
+      "roomId": "38"
+    },
+    {
+      "direction": "south_secret",
+      "roomId": "41"
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "STABLE"
+    ]
+  }
+}

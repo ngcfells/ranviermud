@@ -1,0 +1,17 @@
+{
+  "id": "18",
+  "title": "The Librarian’s Nook",
+  "description": "Floating scrolls drift in magical currents. Desk buried in wax.",
+  "exits": [
+    {
+      "direction": "south",
+      "roomId": "17"
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK",
+      "ANTI_MAGIC"
+    ]
+  }
+}

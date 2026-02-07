@@ -1,0 +1,21 @@
+{
+  "id": "16",
+  "title": "The Echoing Corridor",
+  "description": "Polished obsidian walls. Sounds echo three times with distorted malice.",
+  "exits": [
+    {
+      "direction": "west",
+      "roomId": "3"
+    },
+    {
+      "direction": "east",
+      "roomId": "17"
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK",
+      "WILD_MAGIC"
+    ]
+  }
+}

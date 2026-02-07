@@ -1,0 +1,20 @@
+{
+  "id": "8",
+  "title": "The Belfry Access",
+  "description": "Spiral iron staircase winding upward into a dark, oily shaft.",
+  "exits": [
+    {
+      "direction": "south",
+      "roomId": "7"
+    },
+    {
+      "direction": "up",
+      "roomId": "10"
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK"
+    ]
+  }
+}

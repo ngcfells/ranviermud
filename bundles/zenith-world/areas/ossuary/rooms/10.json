@@ -1,0 +1,20 @@
+{
+  "id": "10",
+  "title": "The Ashen Balcony",
+  "description": "High vantage point over the cloisters. A massive cracked bronze bell sits in the corner.",
+  "exits": [
+    {
+      "direction": "down",
+      "roomId": "8"
+    },
+    {
+      "direction": "west",
+      "roomId": "15"
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK"
+    ]
+  }
+}

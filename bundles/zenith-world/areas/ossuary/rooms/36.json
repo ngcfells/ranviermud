@@ -1,0 +1,29 @@
+{
+  "id": "36",
+  "title": "The Great Crossing",
+  "description": "Massive circular hall. Floor marble depicts a saint with a golden lantern.",
+  "exits": [
+    {
+      "direction": "north",
+      "roomId": "5"
+    },
+    {
+      "direction": "west",
+      "roomId": "25"
+    },
+    {
+      "direction": "south",
+      "roomId": "37"
+    },
+    {
+      "direction": "east",
+      "roomId": "35"
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "POSITIVE_ENERGY",
+      "HUB"
+    ]
+  }
+}

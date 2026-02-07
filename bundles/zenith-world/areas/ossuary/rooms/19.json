@@ -1,0 +1,21 @@
+{
+  "id": "19",
+  "title": "The Hall of Mirrors",
+  "description": "Tarnished silvered glass walls. Reflections linger and distort.",
+  "exits": [
+    {
+      "direction": "north",
+      "roomId": "17"
+    },
+    {
+      "direction": "east",
+      "roomId": "20"
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK",
+      "WILD_MAGIC"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "6",
+  "title": "The Hall of Penance",
+  "description": "Narrow corridor with kneeling alcoves. Floor layered in white bone-ash.",
+  "exits": [
+    {
+      "direction": "east",
+      "roomId": "3"
+    },
+    {
+      "direction": "west",
+      "roomId": "7"
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK",
+      "DIFFICULT"
+    ]
+  }
+}

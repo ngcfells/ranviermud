@@ -1,0 +1,27 @@
+{
+  "id": "1",
+  "title": "The Crumbling Gatehouse",
+  "description": "Rain lashes against a granite archway. Stairs descend into darkness.",
+  "exits": [
+    {
+      "direction": "down",
+      "roomId": "2"
+    },
+    {
+      "direction": "north",
+      "roomId": "0"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "npc_gatekeeper_spirit",
+      "respawnChance": 100
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "OUTDOORS",
+      "RAIN"
+    ]
+  }
+}

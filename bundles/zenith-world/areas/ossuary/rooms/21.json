@@ -1,0 +1,25 @@
+{
+  "id": "21",
+  "title": "The Golem's Alcove",
+  "description": "Tight alcove with a dormant stone armored guardian.",
+  "exits": [
+    {
+      "direction": "west",
+      "roomId": "20"
+    },
+    {
+      "direction": "north",
+      "roomId": "22"
+    },
+    {
+      "direction": "south",
+      "roomId": "23"
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK",
+      "ANTI_MAGIC"
+    ]
+  }
+}

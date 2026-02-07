@@ -1,0 +1,21 @@
+{
+  "id": "29",
+  "title": "The Ossuary Drain",
+  "description": "Water flows toward a massive floor grate. Bronze plaques of the departed.",
+  "exits": [
+    {
+      "direction": "west",
+      "roomId": "27"
+    },
+    {
+      "direction": "east",
+      "roomId": "30"
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK",
+      "WATER"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2",
+  "title": "The Antechamber of Lament",
+  "description": "Cold hall with murals of gouged saints. Shattered stone benches line the walls.",
+  "exits": [
+    {
+      "direction": "up",
+      "roomId": "1"
+    },
+    {
+      "direction": "south",
+      "roomId": "3"
+    },
+    {
+      "direction": "west",
+      "roomId": "4"
+    }
+  ],
+  "items": [
+    {
+      "id": {
+        "id": "skeleton_human",
+        "rate": 1
+      }
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK"
+    ]
+  }
+}

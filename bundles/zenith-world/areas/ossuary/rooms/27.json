@@ -1,0 +1,34 @@
+{
+  "id": "27",
+  "title": "The Flooded Crypts",
+  "description": "Murky black water waist-deep. Stone sarcophagi float like ghost ships.",
+  "exits": [
+    {
+      "direction": "up",
+      "roomId": "26"
+    },
+    {
+      "direction": "south",
+      "roomId": "28"
+    },
+    {
+      "direction": "east",
+      "roomId": "29"
+    }
+  ],
+  "items": [
+    {
+      "id": {
+        "id": "dire_rat",
+        "rate": 0.7
+      }
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK",
+      "WATER",
+      "DIFFICULT"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "47",
+  "title": "The Hall of Judgment",
+  "description": "Gallery of spectral council members whispering judgments.",
+  "exits": [
+    {
+      "direction": "north",
+      "roomId": "46"
+    },
+    {
+      "direction": "south",
+      "roomId": "48"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "npc_spectral_judge",
+      "respawnChance": 100
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "WILD_MAGIC"
+    ]
+  }
+}

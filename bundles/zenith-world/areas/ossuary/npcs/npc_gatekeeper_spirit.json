@@ -1,0 +1,23 @@
+{
+  "id": "npc_gatekeeper_spirit",
+  "name": "Gatekeeper Spirit",
+  "keywords": ["gatekeeper", "spirit", "ghost"],
+  "description": "A translucent guardian drifts before the crumbling gatehouse, its hollow eyes watching all who approach.",
+  "level": 1,
+  "attributes": {
+    "health": 30,
+    "armor": 0,
+    "strength": 5,
+    "agility": 5,
+    "intellect": 5
+  },
+  "behaviors": {
+    "combat": {
+      "aggressive": false
+    }
+  },
+  "metadata": {
+    "isSpirit": true,
+    "role": "tutorial_guardian"
+  }
+}

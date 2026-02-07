@@ -1,0 +1,24 @@
+{
+  "id": "4",
+  "title": "The Guard’s Recess",
+  "description": "Cramped room behind iron grates. Splintered tables and rusted armor.",
+  "exits": [
+    {
+      "direction": "east",
+      "roomId": "2"
+    }
+  ],
+  "items": [
+    {
+      "id": {
+        "id": "zombie_human",
+        "rate": 0.5
+      }
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK"
+    ]
+  }
+}

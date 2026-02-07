@@ -1,0 +1,21 @@
+{
+  "id": "15",
+  "title": "The Western Terminus",
+  "description": "Smooth stone wall marking the end of the corridor. Carvings of an early journey.",
+  "exits": [
+    {
+      "direction": "east",
+      "roomId": "10"
+    },
+    {
+      "direction": "south",
+      "roomId": "7"
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK",
+      "SECRET_NEAR"
+    ]
+  }
+}

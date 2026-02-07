@@ -1,0 +1,29 @@
+{
+  "id": "42",
+  "title": "The Chamber of the Blasphemous Altar",
+  "description": "Black blood smeared on stone. Altar of skulls beneath a red portal.",
+  "exits": [
+    {
+      "direction": "north",
+      "roomId": "41"
+    },
+    {
+      "direction": "south",
+      "roomId": "43"
+    }
+  ],
+  "items": [
+    {
+      "id": {
+        "id": "skeleton_human",
+        "rate": 0.8
+      }
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK",
+      "NEGATIVE_ENERGY"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "28",
+  "title": "The Weeping Archway",
+  "description": "Constantly dripping stone covered in bioluminescent gravelight fungus.",
+  "exits": [
+    {
+      "direction": "north",
+      "roomId": "27"
+    },
+    {
+      "direction": "south",
+      "roomId": "31"
+    }
+  ],
+  "items": [
+    {
+      "id": {
+        "id": "zombie_human",
+        "rate": 0.5
+      }
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK",
+      "WATER"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "11",
+  "title": "The Trapped Confessional",
+  "description": "Intact wooden booth in a freezing, silent room. Scratching sounds from within.",
+  "exits": [
+    {
+      "direction": "east",
+      "roomId": "7"
+    },
+    {
+      "direction": "west",
+      "roomId": "12"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "npc_trapped_ghost_martha",
+      "respawnChance": 100
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK",
+      "SILENCE"
+    ]
+  }
+}

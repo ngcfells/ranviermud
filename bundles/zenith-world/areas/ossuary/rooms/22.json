@@ -1,0 +1,25 @@
+{
+  "id": "22",
+  "title": "The Vermin Nest",
+  "description": "Floor and walls covered in thick, sticky webbing. Wrapped cocoons in the rafters.",
+  "exits": [
+    {
+      "direction": "south",
+      "roomId": "21"
+    }
+  ],
+  "items": [
+    {
+      "id": {
+        "id": "monstrous_spider_medium",
+        "rate": 1
+      }
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK",
+      "DIFFICULT"
+    ]
+  }
+}

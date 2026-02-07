@@ -1,0 +1,29 @@
+{
+  "id": "46",
+  "title": "The Threshold of Despair",
+  "description": "Wide landing overlooking orange molten rock through floor fissures.",
+  "exits": [
+    {
+      "direction": "down",
+      "roomId": "45"
+    },
+    {
+      "direction": "south",
+      "roomId": "47"
+    }
+  ],
+  "items": [
+    {
+      "id": {
+        "id": "mephit_fire",
+        "rate": 0.4
+      }
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK",
+      "LAVA"
+    ]
+  }
+}

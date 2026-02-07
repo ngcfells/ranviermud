@@ -1,0 +1,21 @@
+{
+  "id": "23",
+  "title": "The Trapped Altar",
+  "description": "Hollowed stone altar with an eternal magical flame. Visible abjuration runes.",
+  "exits": [
+    {
+      "direction": "north",
+      "roomId": "21"
+    },
+    {
+      "direction": "east",
+      "roomId": "24"
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK",
+      "POSITIVE_ENERGY"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "14",
+  "title": "The Secret Vault",
+  "description": "Square chamber reached by a tight crawlspace. Bolted iron-bound chest.",
+  "exits": [
+    {
+      "direction": "south",
+      "roomId": "12"
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK",
+      "SECURE"
+    ]
+  }
+}

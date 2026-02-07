@@ -1,0 +1,20 @@
+{
+  "id": "45",
+  "title": "The Final Ascent",
+  "description": "Winding black stone staircase. Torches flicker in iron sconces.",
+  "exits": [
+    {
+      "direction": "east",
+      "roomId": "43"
+    },
+    {
+      "direction": "up",
+      "roomId": "46"
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK"
+    ]
+  }
+}

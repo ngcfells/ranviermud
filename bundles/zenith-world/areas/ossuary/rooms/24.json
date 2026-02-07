@@ -1,0 +1,29 @@
+{
+  "id": "24",
+  "title": "The Shaman’s Sanctuary",
+  "description": "Dark shrine of bones and blood. Ragged goblin shaman over a cauldron.",
+  "exits": [
+    {
+      "direction": "west",
+      "roomId": "23"
+    },
+    {
+      "direction": "east",
+      "roomId": "25"
+    }
+  ],
+  "items": [
+    {
+      "id": {
+        "id": "goblin_shaman",
+        "rate": 1
+      }
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK",
+      "WILD_MAGIC"
+    ]
+  }
+}

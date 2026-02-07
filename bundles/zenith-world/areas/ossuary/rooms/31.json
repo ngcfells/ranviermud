@@ -1,0 +1,22 @@
+{
+  "id": "31",
+  "title": "The Chasm of the Unhallowed",
+  "description": "Massive natural cavern split by a deep chasm and roaring river. Slick stone bridge.",
+  "exits": [
+    {
+      "direction": "north",
+      "roomId": "28"
+    },
+    {
+      "direction": "south",
+      "roomId": "32"
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK",
+      "WATER",
+      "DIFFICULT"
+    ]
+  }
+}

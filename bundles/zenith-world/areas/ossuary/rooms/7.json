@@ -1,0 +1,37 @@
+{
+  "id": "7",
+  "title": "The Scriptorium of Shadows",
+  "description": "Rotted wooden carrels and crumbling parchment. A stone-bound book is chained to a lectern.",
+  "exits": [
+    {
+      "direction": "east",
+      "roomId": "6"
+    },
+    {
+      "direction": "north",
+      "roomId": "8"
+    },
+    {
+      "direction": "south",
+      "roomId": "9"
+    },
+    {
+      "direction": "west",
+      "roomId": "11"
+    }
+  ],
+  "items": [
+    {
+      "id": {
+        "id": "shadow",
+        "rate": 0.3
+      }
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK",
+      "NEGATIVE_ENERGY"
+    ]
+  }
+}

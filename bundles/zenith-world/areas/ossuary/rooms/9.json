@@ -1,0 +1,24 @@
+{
+  "id": "9",
+  "title": "The Mortuary Washroom",
+  "description": "Stone slabs with drainage grooves. Rusted hooks hang from the ceiling.",
+  "exits": [
+    {
+      "direction": "north",
+      "roomId": "7"
+    }
+  ],
+  "items": [
+    {
+      "id": {
+        "id": "ghoul",
+        "rate": 0.6
+      }
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "30",
+  "title": "The Chamber of Drowned Hopes",
+  "description": "Waist-deep water dead end. Sarcophagus on a dry raised dais.",
+  "exits": [
+    {
+      "direction": "west",
+      "roomId": "29"
+    }
+  ],
+  "items": [
+    {
+      "id": {
+        "id": "wight",
+        "rate": 1
+      }
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK",
+      "WATER",
+      "NEGATIVE_ENERGY"
+    ]
+  }
+}

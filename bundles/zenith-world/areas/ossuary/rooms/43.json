@@ -1,0 +1,33 @@
+{
+  "id": "43",
+  "title": "The Bone Pit",
+  "description": "Natural cave floor of loose bones. Treacherous footing.",
+  "exits": [
+    {
+      "direction": "north",
+      "roomId": "42"
+    },
+    {
+      "direction": "east",
+      "roomId": "44"
+    },
+    {
+      "direction": "west",
+      "roomId": "45"
+    }
+  ],
+  "items": [
+    {
+      "id": {
+        "id": "bone_rat_swarm",
+        "rate": 1
+      }
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK",
+      "DIFFICULT"
+    ]
+  }
+}

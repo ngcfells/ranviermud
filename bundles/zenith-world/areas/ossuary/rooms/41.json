@@ -1,0 +1,21 @@
+{
+  "id": "41",
+  "title": "The Hall of Asceticism",
+  "description": "Narrow corridor with wall spikes. Thin air and rhythmic chanting.",
+  "exits": [
+    {
+      "direction": "north",
+      "roomId": "37"
+    },
+    {
+      "direction": "south",
+      "roomId": "42"
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK",
+      "DIFFICULT"
+    ]
+  }
+}

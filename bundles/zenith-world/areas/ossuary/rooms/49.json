@@ -1,0 +1,30 @@
+{
+  "id": "49",
+  "title": "The Sanctum of the Fallen",
+  "description": "Cathedral chamber. Throne of bone sits atop a jagged spire.",
+  "exits": [
+    {
+      "direction": "north",
+      "roomId": "48"
+    },
+    {
+      "direction": "south",
+      "roomId": "50"
+    }
+  ],
+  "items": [
+    {
+      "id": {
+        "id": "fallen_saint_valerius",
+        "rate": 1
+      }
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK",
+      "NEGATIVE_ENERGY",
+      "WILD_MAGIC"
+    ]
+  }
+}

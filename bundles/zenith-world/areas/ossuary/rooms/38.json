@@ -1,0 +1,33 @@
+{
+  "id": "38",
+  "title": "The Chamber of the Golden Censer",
+  "description": "Gold censer sways from the ceiling, releasing sweet, revitalizing smoke.",
+  "exits": [
+    {
+      "direction": "north",
+      "roomId": "37"
+    },
+    {
+      "direction": "east",
+      "roomId": "39"
+    },
+    {
+      "direction": "west",
+      "roomId": "40"
+    }
+  ],
+  "items": [
+    {
+      "id": {
+        "id": "hell_hound",
+        "rate": 0.3
+      }
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "POSITIVE_ENERGY",
+      "DIFFICULT"
+    ]
+  }
+}

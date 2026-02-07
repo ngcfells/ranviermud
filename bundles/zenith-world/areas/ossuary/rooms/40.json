@@ -1,0 +1,16 @@
+{
+  "id": "40",
+  "title": "The Armory of the Faithful",
+  "description": "Racks of rotted leather and rusted iron. Stone map etched on northern wall.",
+  "exits": [
+    {
+      "direction": "east",
+      "roomId": "38"
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "STABLE"
+    ]
+  }
+}

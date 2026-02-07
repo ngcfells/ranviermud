@@ -1,0 +1,20 @@
+{
+  "id": "34",
+  "title": "The Guardian’s Post",
+  "description": "Guard station with a petrified skeleton sitting in a stone chair.",
+  "exits": [
+    {
+      "direction": "west",
+      "roomId": "33"
+    },
+    {
+      "direction": "east",
+      "roomId": "35"
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK"
+    ]
+  }
+}

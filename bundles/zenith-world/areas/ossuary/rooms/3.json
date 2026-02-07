@@ -1,0 +1,33 @@
+{
+  "id": "3",
+  "title": "The Crossroads of the Dead",
+  "description": "Vaulted dome with weeping angel pillars. Marble mosaic floors.",
+  "exits": [
+    {
+      "direction": "north",
+      "roomId": "2"
+    },
+    {
+      "direction": "west",
+      "roomId": "6"
+    },
+    {
+      "direction": "east",
+      "roomId": "16"
+    },
+    {
+      "direction": "south",
+      "roomId": "26"
+    },
+    {
+      "direction": "down",
+      "roomId": "5"
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK",
+      "HUB"
+    ]
+  }
+}

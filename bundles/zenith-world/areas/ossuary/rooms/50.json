@@ -1,0 +1,21 @@
+{
+  "id": "50",
+  "title": "The Portal of Ascension",
+  "description": "Tranquil pool of silver light behind the throne. Cool, sweet air.",
+  "exits": [
+    {
+      "direction": "north",
+      "roomId": "49"
+    },
+    {
+      "direction": "up",
+      "roomId": "world_hub_town"
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "POSITIVE_ENERGY",
+      "TELEPORT"
+    ]
+  }
+}

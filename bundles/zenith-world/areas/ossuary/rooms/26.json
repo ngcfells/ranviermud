@@ -1,0 +1,21 @@
+{
+  "id": "26",
+  "title": "The Inclined Descent",
+  "description": "Steep, slick floor. Recesses containing bleached white bones of acolytes.",
+  "exits": [
+    {
+      "direction": "north",
+      "roomId": "3"
+    },
+    {
+      "direction": "down",
+      "roomId": "27"
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK",
+      "DIFFICULT"
+    ]
+  }
+}

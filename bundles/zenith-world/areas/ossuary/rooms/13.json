@@ -1,0 +1,24 @@
+{
+  "id": "13",
+  "title": "The Priest's Pantry",
+  "description": "Mundane room with petrified sacks and rotted barrels.",
+  "exits": [
+    {
+      "direction": "north",
+      "roomId": "12"
+    }
+  ],
+  "items": [
+    {
+      "id": {
+        "id": "dire_rat",
+        "rate": 0.7
+      }
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK"
+    ]
+  }
+}

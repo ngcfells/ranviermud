@@ -1,0 +1,20 @@
+{
+  "id": "25",
+  "title": "Eastern Loop Connector",
+  "description": "Short hallway with smooth masonry and a locked south gate.",
+  "exits": [
+    {
+      "direction": "west",
+      "roomId": "24"
+    },
+    {
+      "direction": "south",
+      "roomId": "36"
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK"
+    ]
+  }
+}

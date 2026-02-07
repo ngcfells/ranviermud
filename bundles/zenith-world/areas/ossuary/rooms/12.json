@@ -1,0 +1,25 @@
+{
+  "id": "12",
+  "title": "The Collapsed Ossuary Wall",
+  "description": "Corridor partially caved in. Piles of rubble and ancient femurs.",
+  "exits": [
+    {
+      "direction": "east",
+      "roomId": "11"
+    },
+    {
+      "direction": "south",
+      "roomId": "13"
+    },
+    {
+      "direction": "north",
+      "roomId": "14"
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK",
+      "DIFFICULT"
+    ]
+  }
+}

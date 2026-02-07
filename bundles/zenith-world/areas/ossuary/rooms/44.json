@@ -1,0 +1,18 @@
+{
+  "id": "44",
+  "title": "The Crypt of the Arch-Priest",
+  "description": "Marble sarcophagus in a chamber that repels evil. Silver goblet on the lid.",
+  "exits": [
+    {
+      "direction": "west",
+      "roomId": "43"
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK",
+      "POSITIVE_ENERGY",
+      "ANTI_MAGIC"
+    ]
+  }
+}

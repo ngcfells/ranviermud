@@ -1,0 +1,33 @@
+{
+  "id": "17",
+  "title": "The Chamber of Muted Prayers",
+  "description": "Lead-lined door leads to a room of absolute sound-death. Crystal sphere on a pedestal.",
+  "exits": [
+    {
+      "direction": "west",
+      "roomId": "16"
+    },
+    {
+      "direction": "north",
+      "roomId": "18"
+    },
+    {
+      "direction": "south",
+      "roomId": "19"
+    }
+  ],
+  "items": [
+    {
+      "id": {
+        "id": "monstrous_spider_small",
+        "rate": 0.6
+      }
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK",
+      "SILENCE"
+    ]
+  }
+}

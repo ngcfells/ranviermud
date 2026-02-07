@@ -1,0 +1,16 @@
+{
+  "id": "51",
+  "title": "Ancient Armory",
+  "description": "A lightless room full of rusted equipment.",
+  "exits": [
+    {
+      "direction": "west",
+      "roomId": "0"
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK"
+    ]
+  }
+}

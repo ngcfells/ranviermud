@@ -1,0 +1,28 @@
+{
+  "id": "32",
+  "title": "The Riverside Landing",
+  "description": "Safe landing south of the chasm. Stacks of old rope and mining gear.",
+  "exits": [
+    {
+      "direction": "north",
+      "roomId": "31"
+    },
+    {
+      "direction": "east",
+      "roomId": "33"
+    }
+  ],
+  "items": [
+    {
+      "id": {
+        "id": "giant_centipede",
+        "rate": 0.6
+      }
+    }
+  ],
+  "metadata": {
+    "flags": [
+      "DARK"
+    ]
+  }
+}
